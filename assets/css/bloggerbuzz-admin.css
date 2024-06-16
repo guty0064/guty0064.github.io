@@ -1,0 +1,31 @@
+/**
+ * Widget Color
+*/
+#widget-list [id*='_blogger_buzz_'] .widget-top, 
+#widget-list [id*='_blogger_buzz_'] h3 {
+    background: rgba(191, 191, 191, 0.4);
+}
+
+.bloggerbuzz-activation-notice {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-left: 0 !important;
+    border-top: 1px solid #0085BA;
+}
+
+.bloggerbuzz-activation-notice h1 {
+    margin-bottom: 0 !important;
+}
+
+.bloggerbuzz-activation-notice p:first-of-type {
+    margin-bottom: 20px !important;
+}
+
+.ocdi__gl-item .ocdi__gl-item-button.js-ocdi-gl-import-data {
+    display: none;
+}
+
+.ocdi__gl-item:first-child .ocdi__gl-item-button.js-ocdi-gl-import-data{
+  display: block;
+}
